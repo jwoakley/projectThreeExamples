@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+
+header {
+  background-color: rgb(230, 230, 230);
+}
+
+nav {
+  font-family: swear-display, serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2vw;
+}
+
+nav a {
+float: right;
+padding-right: 3%;
+text-decoration: none;
+color: #0c00ff;
+padding-top: 0.5%;
+}
+
+a:hover {
+  color: #70ef00;
+}
+
+section {
+width: 100%;
+height: 100vh;
+}
+
+#one {
+  background-color: #0c00ff;
+  background-image: url(../img/for\ homepage.jpg);
+}
+
+#one h1 {
+ font-size: 10vw;
+ font-family: degular, sans-serif;
+ font-weight: 700;
+ font-style: italic;
+ text-align: left;
+ color: #0c00ff;
+ padding-top: 10%;
+ padding-left: 3%;
+}
+
+.green {
+  color: #70ef00;
+}
+
+#one h3 {
+  font-family: swear-display, serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 1.8vw;
+  text-align: justify;
+  padding-right: 60%;
+  padding-left: 3%;
+  color: #0c00ff;
+
+  letter-spacing: 0.5px;
+}
+
+.underline {
+text-decoration: underline;
+}
+
+.homepage {
+ width: 100%;
+ height: 88%;
+}
+
+#two {
+  background-color: #0c00ff;
+  padding-top: 5%;
+}
+
+#buy-button a {
+  display: inline-flexbox;
+  margin-left: 35%;
+  padding: 1% 8%;
+  border: 0.1em solid #f5f5f5;
+  box-sizing: border-box;
+  text-decoration :none;
+  font-size: 3.5vw;
+  font-family: swear-display, serif;
+  font-weight: 500;
+  font-style: italic;
+  color: #f5f5f5;
+  text-align:center;
+  transition: all 0.15s;
+}
+.tickets {
+  width: 108%;
+  margin-left: -5%;
+  margin-top: 1%;
+  }
+
+#buy-button a:hover {
+  color:#70ef00;
+  background-color:#f5f5f5;
+}
+
+#three {
+  background-color:whitesmoke;
+  display: flex;
+  flex-direction: row;
+}
+
+.instagram-media {
+  padding-top: 10%;
+  padding-left: 10%;
+}
+
+#three h1 {
+  margin-top: 15%;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: swear-display, serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 2.2vw;
+  text-align: justify;
+  color: #0c00ff;
+}

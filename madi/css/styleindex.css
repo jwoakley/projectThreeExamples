@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+}
+body {
+  min-height: 100vh;
+  width: 100%;
+}
+/* ------- navigation -------- */
+
+nav {
+  color: #fffceb;
+  padding: 2em;
+  background-color: #0f0f0f;
+  position: relative;
+  min-height: 4vh;
+}
+nav img {
+  position: absolute;
+  top: 0.313em;
+  left: 0.938em;
+}
+nav a {
+  color: #fffceb;
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  padding-right: 2em;
+  font-size: 1.5em;
+  text-decoration: none;
+  float: right;
+}
+nav a:hover {
+  transform: rotate(5deg);
+  transition-duration: 0.5s;
+  color: #fcff00;
+}
+/* ------- title box -------- */
+
+.intro {
+  color: #fffceb;
+  padding: 3em;
+  background-color: none;
+  min-height: 70vh;
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.25em;
+}
+.stamp1 {
+  position: absolute;
+  top: 6.75em;
+  left: 1.25em;
+  transform: rotate(-20deg);
+}
+.smile1 {
+  position: absolute;
+  top: 18.75em;
+  right: 1.25em;
+  transform: rotate(15deg);
+}
+.aapi1 {
+  position: absolute;
+  top: 30.75em;
+  left: 1.25em;
+  transform: rotate(15deg);
+}
+.screen1 {
+  position: absolute;
+  top: 62.75em;
+  right: 1.75em;
+  transform: rotate(-20deg);
+}
+h1 {
+  letter-spacing: 0.1em
+}
+/* ------- we are dynasty box -------- */
+
+.bio {
+  color: #fffceb;
+  background-color: #0f0f0f;
+  min-height: 5vh;
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2em;
+  text-align: right;
+  display: flex;
+}
+#bioText {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  text-align: left;
+}
+h2 {
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5em;
+}
+p {
+  font-size: 60%;
+  font-family: roc-grotesk, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.bio img {
+  width: 50%;
+  height: 100vh;
+}
+/* ------------ location box ------------- */
+
+.location {
+  color: #fffceb;
+  padding: 3em;
+  background-color: none;
+  min-height: 5vh;
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2em;
+  text-align: center;
+}
+/* ------------ footer ------------- */
+
+.support {
+  color: #fffceb;
+  padding: 2em;
+  background-color: #0f0f0f;
+  min-height: 5vh;
+  font-family: wayfinder-cf, serif;
+  font-weight: 100;
+  font-size: 2em;
+  text-align: right;
+  display: flex;
+}
+#supportText {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  text-align: left;
+}

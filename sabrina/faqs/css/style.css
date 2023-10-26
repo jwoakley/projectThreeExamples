@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: rgb(230, 230, 230);
+}
+
+nav {
+	font-family: swear-display, serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 2vw;
+}
+
+nav a {
+	float: right;
+	padding-right: 3%;
+	text-decoration: none;
+	color: #0c00ff;
+	padding-top: 1%;
+}
+
+.faq {
+	background-color: #e6e6e6;
+}
+
+a:hover {
+	color: #70ef00;
+}
+
+.accordion>input[type="checkbox"] {
+	position: absolute;
+	left: -100vw;
+}
+
+.accordion .content {
+	overflow-y: hidden;
+	height: 0;
+	padding-left: 30%;
+	transition: height 0.3s ease;
+	font-family: swear-display, serif;
+	font-weight: 500;
+	font-style: italic;
+	font-size: 1.5vw;
+}
+
+.accordion>input[type="checkbox"]:checked~.content {
+	height: auto;
+	overflow: visible;
+}
+
+.accordion label {
+	display: block;
+}
+
+/* Styling */
+
+h1 {
+	font-family: degular, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 4vw;
+	color: #70ef00;
+	text-align: center;
+}
+
+.accordion {
+	margin-bottom: 1em;
+}
+
+.accordion>input[type="checkbox"]:checked~.content {
+	padding: 15px;
+	border: 1px solid;
+	border-top: 0;
+}
+
+.accordion .handle {
+	margin: 0;
+	font-size: 1.125em;
+	line-height: 1.2em;
+}
+
+.accordion label {
+	color: #0c00ff;
+	cursor: pointer;
+	font-family: swear-display, serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 2vw;
+	padding: 15px;
+	background: #e8e8e8;
+}
+
+.accordion label:hover, .accordion label:focus {
+	background: #70ef00;
+}
+
+.accordion .handle label:before {
+	content: "\f054";
+	display: inline-block;
+	margin-right: 10px;
+	font-size: .58em;
+	vertical-align: middle;
+}
+
+.accordion>input[type="checkbox"]:checked~.handle label:before {
+	content: "\f078";
+}
+
+.faq-image {
+	margin-left: 70%;
+}

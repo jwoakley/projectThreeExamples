@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  font-size: 100%;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  background-color: rgb(250, 236, 226);
+  color: rgb(13, 13, 13, .9);
+}
+
+/* Typography */
+
+h1 {
+  letter-spacing: .1em;
+  font-size: 3.5em;
+  font-family: swear-display, serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 2.2em;
+  font-family: brother-1816, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-family: brother-1816, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+p {
+  font-size: 1.2em;
+  font-family: brother-1816, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+nav a {
+  font-size: 1.5em;
+  color: white;
+  font-family: brother-1816, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* Header */
+
+header nav {
+  background-color: black;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  position: fixed;
+  justify-content: space-around;
+  top: 0%;
+}
+
+header nav a {
+  display: inline flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding: 2em;
+}
+
+#logo a img {
+  color: white;
+  width: 12%;
+  position: fixed;
+  left: 0%;
+  padding: .5em;
+}
+
+header a:hover {
+  color: rgba(224, 163, 227, 1);
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+}
+
+/* Section one */
+
+.one {
+  width: 100%;
+  height: 90vh;
+  text-align: center;
+  letter-spacing: .1em;
+  background-image: url(../img/paintcolor.png);
+  justify-content: center, space-around;
+  padding: 15em;
+}
+
+.one #subtitle {
+  padding-top: 5em;
+}
+
+/* section two */
+
+.two {
+  width: 100%;
+  height: 75vh;
+  background-color: rgba(224, 163, 227, 1);
+  text-align: left;
+  letter-spacing: .1em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 3em;
+}
+
+.two #body {
+  width: 50%;
+  padding-top: 3em;
+  text-align: left;
+}
+
+.two #title {
+  width: 50%;
+  padding-top: 3em;
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+#ticketbutton h3 {
+  padding: .5em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5%;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: rgba(224, 163, 227, 1);
+  width: 10em;
+  height: 3em;
+}
+
+#ticketbutton h3:hover {
+  color: white;
+}
+
+/* section 3 */
+
+.three {
+  width: 100%;
+  height: 65vh;
+  text-align: center;
+  letter-spacing: .1em;
+  background-color: rgba(224, 163, 227, 1);
+  justify-content: center, space-around;
+  padding: 10em;
+}
+
+/* section 4 */
+
+.four {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/hellmansHallow2.jpg);
+  background-size: 100%;
+  background-position: 50%;
+  padding: 5em;
+  padding-left: 10em;
+}
+
+#leftside {
+  width: 80%;
+  justify-content: center, space-around;
+  padding: 2em;
+  text-align: left;
+  bottom: 10%;
+}
+
+#leftside h2 {
+  padding-left: 3em;
+}
+
+#leftside p {
+  padding-left: 5em;
+  padding-top: 2em;
+}
+
+#rightside p {
+  padding-top: 8em;
+  padding-left: 38em;
+}
+
+/* footer */
+
+footer {
+  height: 10vh;
+  background-color: black;
+  color: white;
+  padding: .5em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+#ig:hover {
+  color: rgba(224, 163, 227, 1);
+}
+
+#mhc a:hover {
+  color: rgba(224, 163, 227, 1);
+}
+
+#tickets h3:hover {
+  color: rgba(224, 163, 227, 1);
+}
+
+/* media queries */
+
+@media screen and (max-width: 600px) {
+  #logo img {
+    width: 50%;
+  }
+  #ticketbutton {
+    width: 50%;
+  }
+  #rightside {
+    width: 50%;
+  }
+  * {
+    font-size: 50%;
+  }
+  header nav {
+    height: 10%;
+  }
+  .one {
+    height: 50%;
+  }
+  .two {
+    height: 50%;
+  }
+  .three {
+    height: 50%;
+  }
+  .four {
+    height: 50%;
+  }
+  footer {
+    height: 50%;
+  }
+}

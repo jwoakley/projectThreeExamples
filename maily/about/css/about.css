@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  font-size: 100%;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  background-color: rgb(250, 236, 226);
+  color: rgb(13, 13, 13, .9);
+}
+
+/* Typography */
+
+h1 {
+  letter-spacing: .1em;
+  font-size: 3.5em;
+  font-family: swear-display, serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 2.2em;
+  font-family: brother-1816, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-family: brother-1816, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+p {
+  font-size: 1.2em;
+  font-family: brother-1816, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+nav a {
+  font-size: 1.5em;
+  color: white;
+  font-family: brother-1816, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* Header */
+
+header nav {
+  background-color: black;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  justify-content: space-around;
+  top: 0%;
+}
+
+header nav a {
+  display: inline flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding: 2em;
+}
+
+#logo a img {
+  color: white;
+  width: 12%;
+  position: fixed;
+  left: 0%;
+  padding: .5em;
+}
+
+header a:hover {
+  color: #89C97B;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+}
+
+/*  Section top */
+
+.one {
+  height: 90vh;
+  text-align: center;
+  letter-spacing: .1em;
+  background-color: #89C97B;
+  justify-content: center, space-around;
+  padding: 12em;
+}
+
+.one #subtitle {
+  padding-top: 5em;
+}
+
+/* section two */
+
+.two {
+  background-image: url(../img/markercolors.png);
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2em;
+  text-align: left;
+  letter-spacing: .1em;
+}
+
+.two #rightside {
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.284);
+}
+
+.two #leftside {
+  width: 40%;
+}
+
+.two img {
+  width: 100%;
+}
+
+/* section 3 */
+
+.three {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  letter-spacing: .1em;
+  background-color: #89C97B;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 3em;
+}
+
+.three #title {
+  width: 35%;
+  padding: .5em;
+  text-align: left;
+  justify-content: space-around;
+}
+
+.three #body {
+  width: 50%;
+  text-align: left;
+  padding: .5em;
+}
+
+/* section 4 */
+
+.four {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 3em;
+  text-align: left;
+}
+
+.four #rightside {
+  width: 60%;
+  padding: 1em;
+  justify-content: space-between;
+}
+
+.four img {
+  width: 40%;
+  height: 20em;
+  padding: 1em;
+  justify-content: space-between;
+}
+
+.four #button h2 a {
+  text-decoration: none;
+  color: #89C97B;
+  padding-left: 5em;
+}
+
+.four #button h2 a:hover {
+  color: black;
+}
+
+/* footer */
+
+footer {
+  bottom: 0em;
+  height: 10vh;
+  background-color: black;
+  color: white;
+  padding: .5em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+#ig:hover {
+  color: rgba(224, 163, 227, 1);
+}
+
+#mhc a:hover {
+  color: rgba(224, 163, 227, 1);
+}
+
+#tickets h3:hover {
+  color: rgba(224, 163, 227, 1);
+}

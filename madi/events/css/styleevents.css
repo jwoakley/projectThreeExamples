@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+}
+body {
+  min-height: 100vh;
+  width: 100%;
+}
+/* ------------ navigation ------------- */
+
+nav {
+  color: #fffceb;
+  padding: 2em;
+  background-color: #0f0f0f;
+  position: relative;
+  min-height: 4vh;
+}
+nav img {
+  position: absolute;
+  top: 0.313em;
+  left: 0.938em;
+}
+nav a {
+  color: #fffceb;
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  padding-right: 2em;
+  font-size: 1.5em;
+  text-decoration: none;
+  float: right;
+}
+nav a:hover {
+  transform: rotate(5deg);
+  transition-duration: 0.5s;
+  color: #fcff00;
+}
+/* ------------ day 1, 2, and 3 ------------- */
+
+.intro {
+  display: flex;
+  background-color: #0f0f0f;
+  padding: 3em;
+  align-items: center;
+  justify-content: center;
+}
+.intro h3:hover {
+  transform: scale(1.25);
+  transition-duration: 0.5s;
+}
+h3 {
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+h2 {
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5em;
+}
+h4 {
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 300;
+  font-size: 80%;
+}
+h5 {
+  font-family: roc-grotesk, sans-serif;
+  font-weight: 500;
+  font-size: 70%;
+}
+p {
+  font-size: 60%;
+  font-family: roc-grotesk, sans-serif;
+  font-weight: 500;
+}
+h3 a {
+  text-decoration: none;
+  color: #fffceb;
+}
+/* ------------ day one intro ------------- */
+
+.day1intro {
+  background-color: rgb(54, 62, 243, 0.7);
+  color: #fffceb;
+  padding: 3em;
+  min-height: 5vh;
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2em;
+  text-align: center;
+}
+/* ------------ day one ------------- */
+
+.day1events {
+  color: #fffceb;
+  background-color: #0f0f0f;
+  min-height: 5vh;
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2em;
+  text-align: right;
+  display: flex;
+}
+#murakami {
+  max-height: 50%;
+}
+#day1Text {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  text-align: left;
+}
+.bio {
+  color: #fffceb;
+  background-color: #0f0f0f;
+  min-height: 5vh;
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2em;
+  text-align: right;
+  display: flex;
+}
+#bioText {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  text-align: left;
+}
+h2 {
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5em;
+}
+p {
+  font-size: 60%;
+  font-family: roc-grotesk, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.bio img {
+  width: 100vh;
+  height: 100vh;
+}
+.bioText {
+  padding: 4em;
+}
+/* ------------ day two intro ------------- */
+
+.day2intro {
+  background-color: rgb(0, 205, 90, 0.7);
+  color: #fffceb;
+  padding: 3em;
+  min-height: 5vh;
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2em;
+  text-align: center;
+}
+/* ------------ day three ------------- */
+
+.day3intro {
+  background-color: rgb(255, 30, 0, 0.7);
+  color: #fffceb;
+  padding: 3em;
+  min-height: 5vh;
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2em;
+  text-align: center;
+}
+.lineup {
+  min-width: 100vh;
+  min-height: 5vh;
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2em;
+  text-align: center;
+  padding: 1em;
+}
+/* ------------ footer ------------- */
+
+.support {
+  color: #fffceb;
+  padding: 2em;
+  background-color: #0f0f0f;
+  min-height: 5vh;
+  font-family: wayfinder-cf, serif;
+  font-weight: 100;
+  font-size: 2em;
+  text-align: right;
+  display: flex;
+}
+#supportText {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  text-align: left;
+}
