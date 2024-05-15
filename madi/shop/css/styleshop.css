@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+}
+body {
+  min-height: 100vh;
+  width: 100%;
+}
+/* ------------ navigation ------------- */
+
+nav {
+  color: #fffceb;
+  padding: 2em;
+  background-color: #0f0f0f;
+  position: relative;
+  min-height: 4vh;
+}
+nav img {
+  position: absolute;
+  top: 0.313em;
+  left: 0.938em;
+}
+nav a {
+  color: #fffceb;
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  padding-right: 2em;
+  font-size: 1.5em;
+  text-decoration: none;
+  float: right;
+}
+nav a:hover {
+  transform: rotate(5deg);
+  transition-duration: 0.5s;
+  color: #fcff00;
+}
+/* ------------ shopfront ------------- */
+
+.shopfront {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 2em;
+  flex-wrap: wrap;
+}
+.shoplogo {
+  background-color: #0f0f0f;
+}
+.shopfront {
+  background-color: #0f0f0f;
+}
+h3 {
+  color: #fffceb;
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+/* ------------ footer ------------- */
+
+.support {
+  color: #fffceb;
+  padding: 2em;
+  background-color: #0f0f0f;
+  min-height: 5vh;
+  font-family: wayfinder-cf, serif;
+  font-weight: 100;
+  font-size: 2em;
+  text-align: right;
+  display: flex;
+}
+/* ------------ footer ------------- */
+
+#supportText {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  text-align: left;
+}
+h2 {
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5em;
+}
+p {
+  font-size: 60%;
+  font-family: roc-grotesk, sans-serif;
+  font-weight: 500;
+}
+/* ------------ media queries ------------- */
+
+@media screen and (max-width: 750px) {
+  #shoplogo img {
+    width: 80%;
+  }
+  #shopfront img {
+    width: 80%;
+  }
+  * {
+    font-size: 90%;
+  }
+  .support {
+    flex-wrap: wrap;
+  }
+}
