@@ -1,0 +1,265 @@
+*{
+  margin: 0;
+  padding: 0;
+  }
+  html{
+    scroll-behavior: smooth;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    background-attachment:scroll;
+  
+  }
+  body{
+    margin: 0;
+    padding: 0;
+      color: #ffffff;
+      min-height: 100vh;
+      width: 100%; 
+  }
+  
+  h1{
+    font-family: "cooper-black-std", serif;
+    font-weight: 400;
+    font-size:9.375em;
+    font-style: normal;
+    text-align: center;
+    display: flex;
+    flex-direction: row;  
+    -webkit-text-stroke: .035em black;  
+}
+h2{
+  font-family: "cooper-black-std", serif;
+  font-weight: 400;
+  font-style: italic;   
+  font-size:4.375em;   
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  -webkit-text-stroke: .055em black;
+  
+}
+
+h3{
+  font-family: "cooper-black-std", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.0625em;
+}
+h4{
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 4.0625em;
+  color: #ffffff;
+}
+h5{
+font-family: "proxima-nova", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3.125em;
+  color: #ffffff;
+}
+
+h6{
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 2.8125em;
+  color: #ffffff;
+}
+
+header {
+  background-color: #603813;
+  background-image: url(../../img/texture.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+  height: 20vh;
+  position: fixed;
+  z-index: 1000;
+}
+
+
+header li{
+  list-style-type: none;
+  display:inline-block;
+  text-align: center;
+  padding: 2%;
+}
+li{
+  list-style-type: none;
+}
+a{
+text-decoration: none;
+}
+
+.lineuplink, .shoplink,.aboutlink{
+font-family: "cooper-black-std", serif;
+font-weight: 400;
+font-style: normal;
+text-decoration: none;
+font-size: 1.5em;
+color: #ffffff;
+}
+
+.lineuplink{
+color: orange;
+transform: scale(1.5);
+transition: all 1s; 
+cursor:pointer; 
+text-decoration: underline;  
+
+}
+.shoplink:hover {
+color:#29abe2;
+transform: scale(1.5);
+transition: 1s;
+cursor:pointer;
+}
+.aboutlink:hover{
+transform: scale(1.5);
+color: #8cc63f;
+transition: all 1s;
+cursor:pointer;  
+}
+  hr{
+    border: 10px solid #603803;
+    border-radius: 20em;
+  }
+
+  
+
+  
+  .sections{
+    width: 100%;
+    height: 100vh;
+    background-color: #F8584B;
+    
+  }
+  
+
+  
+    
+  .footer{
+     margin-top: auto;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      color: white;
+      background-color: #603813;
+      background-image: url(../../img/texture.png);
+     }
+     #festivalgrounds{
+      padding-top: 10%;
+      text-align: center;
+      padding-bottom: 5%;
+     }
+     #festivalmapimg{
+      width: 60%;
+      }
+     
+     .containerparent, #containerchild0{
+      padding-top: 8%;
+      padding-bottom:5%;
+      background-color: #F4901E;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      min-height: 60vh;
+     }
+     .containerparent00, #containerchild00{
+      text-align: center;
+      background-color: #F4901E;
+      padding-bottom:5%
+     }
+
+     #Day1Summary{ 
+      text-align: left;
+      padding-left: 5%;
+      padding-right: 30%;
+     }
+     .containerparent1{
+      background-color: #F26835;
+     }
+     #Day2Summary{
+      margin-right: 5%;
+      text-align: right;
+      text-decoration: none;
+      margin-left: 30%;
+     }
+     .containerparent2{
+      background-color: #f24b4b;
+     } 
+     #Day3Summary{
+      text-align: left;
+      margin-left: 5%;
+      margin-bottom: 0;
+      margin-right:30%;
+     }
+     .containerparent3{
+      background-color: #F23D6D;
+      padding-bottom: 5%;
+     }
+     .columns {
+      text-align: center;
+      width: 100%;
+      display:flex;
+      flex-grow: 1;
+      column-gap: 50px;
+      justify-content: center;
+  }
+  .concert{
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  .EnVogue img, .Tonyies img, .Sheila img,.Carlos img, .Stevie img{
+    border-radius: 3em;
+    height: 350px;
+    border: 5px black solid;
+  }
+  .setlistcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .iframe{
+padding-top:5%;
+  }
+  .shopbtn{
+    width: 5.00em;
+    height: 1.5em;
+    font-family: "cooper-black-std", serif;
+    font-weight: 400;
+    font-style: italic; 
+    text-transform: uppercase;
+    text-align: center;  
+    font-size:1.00em;   
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    -webkit-text-stroke: .055em black;
+    background-color:#c59b6d;
+    border-radius: .5em;
+    border-width: .10em;
+  }
+  .shopbtn:hover{
+    transform: scale(1.2) ;
+    background-color: #29abe2;
+    border-color: #603813;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  .btncontainer{
+    padding-top: 5%;
+    text-align: center;
+    justify-content: center;
+    background-color: #F23D6D;
+    padding-bottom: 3%;
+
+  }
+   
+     
+    

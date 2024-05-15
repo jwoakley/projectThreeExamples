@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+     background-image: linear-gradient(#29abe2, #823be5);  
+     background-repeat: no-repeat;    
+      color: #ffffff;
+      min-height: 240vh;
+      width: 100%; 
+  }
+
+h1{
+  font-family: "cooper-black-std", serif;
+  font-weight: 400;
+  font-size:9.375em;
+  font-style: normal;
+  text-align: center;
+  display: flex;
+  flex-direction: row;  
+  -webkit-text-stroke: .035em black;  
+}
+h2{
+font-family: "cooper-black-std", serif;
+font-weight: 400;
+font-style: italic;   
+font-size:4.375em;   
+text-decoration: none;
+color: white;
+display: inline-block;
+-webkit-text-stroke: .055em black;
+}
+
+h3{
+font-family: "cooper-black-std", serif;
+font-weight: 400;
+font-style: normal;
+font-size: 2.0625em;
+}
+h4{
+font-family: "proxima-nova", sans-serif;
+font-weight: 900;
+font-style: normal;
+font-size: 1.0625em;
+color: #ffffff;
+}
+h5{
+font-family: "proxima-nova", sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 1.0625em;
+color: #ffffff;
+}
+
+h6{
+  text-align: center;
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 2em;
+  color: #ffffff;
+}
+
+
+  .container1{
+    padding-top: 15%;
+    margin-bottom: 5%;
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+  }
+  .container2{
+   padding-bottom: 25%;
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+  }
+  
+
+  header {
+    background-color: #603813;
+    background-image: url(../../img/texture.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    height: 20vh;
+    position: fixed;
+    z-index: 1000;
+  }
+  
+  
+  header li{
+    list-style-type: none;
+    display:inline-block;
+    text-align: center;
+    padding: 2%;
+  }
+  li{
+    list-style-type: none;
+  }
+a{
+  text-decoration: none;
+}
+  
+.lineuplink, .shoplink,.aboutlink{
+  font-family: "cooper-black-std", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #ffffff;
+
+}
+
+.lineuplink:hover{
+  color: orange;
+  transform: scale(1.5);
+  transition: all 1s; 
+  cursor:pointer; 
+}
+.shoplink {
+  color:#29abe2;
+  transform: scale(1.5);
+  cursor:pointer;
+  text-decoration: underline;
+}
+.aboutlink:hover{
+  transform: scale(1.5);
+  color: #8cc63f;
+  transition: all 1s;
+  cursor:pointer;  
+}
+    .info{
+      text-align: left;
+      margin-left: 5%;
+      margin-right: 5%;
+      list-style-type: decimal;
+      margin-bottom: 5%;
+    }
+    .columns {
+      width: 100%;
+      display:flex;
+      flex-grow: 1;
+      column-gap: 50px;
+      justify-content: center;
+  }
+  .totebag img, .waterbottle img, .ticket img,.dayone img, .daytwo img, .daythree img{
+    border-radius: 3em;
+    height: 375px;
+    border: 5px black solid;
+  }
+
+.footer{
+  justify-content: center; 
+}
+  .footer img{
+    height: 8.5em; 
+    justify-content: center; 
+  }
+  
+  footer{
+    justify-content: center; 
+    position:relative;
+    margin: 0;
+    width: 100%;
+    height: 25vh;
+    background-color: #603813;
+    background-image: url(../../img/texture.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+   
