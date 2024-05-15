@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+body {
+    display: flex;
+    background-color: #EFEEE6;
+
+    position: relative;
+}
+
+nav {
+    padding-left: 12%;
+    display: flex;
+    flex-direction: column;
+    width: 13%;
+    height: 100vh;
+
+    background-color: #8A191F;
+
+    position: absolute;
+}
+
+#logo {
+    width: 13%;
+    position: fixed;
+    top: 9%;
+    left: 5%;
+}
+
+#about {
+    top: 34%;
+    left: 6.9%;
+    width: 9%;
+    position: fixed;
+}
+
+#about:hover {
+    transform: skew(-10deg);
+}
+
+#events {
+    top: 46%;
+    left: 8%;
+    width: 9.1%;
+    position: fixed;
+}
+
+#events:hover {
+    transform: skew(-10deg);
+}
+
+#merch {
+    top: 58%;
+    left: 7.6%;
+    width: 8.5%;
+    position: fixed;
+}
+
+#merch:hover {
+    transform: skew(-10deg);
+}
+
+#connect {
+    top: 70%;
+    left: 7.3%;
+    width: 11.5%;
+    position: fixed;
+}
+
+#connect:hover {
+    transform: skew(-10deg);
+}
+
+/* COPY PASTE^^^^^^^^^ */
+
+h1 {
+    font-family: Didot, serif;
+    color: #8A191F;
+    text-align: right;
+    font-size: 6em;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-right: 8%;
+    margin-left: 15%;
+}
+
+#tix {
+    font-family: Futura, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 100;
+    color: #373B3B;
+    text-align: center;
+    width: 10%;
+    padding: 1%;
+    background-color: #C8D174;
+    border-radius: 10px;
+    box-shadow: 2px 3px 6px #373B3B;
+    position: absolute;
+    left: 26%;
+    top: 16%;
+
+    border: 5px solid transparent;
+}
+
+#tix:hover {
+    border: 5px solid #8A191F;
+}
+
+#section {
+    display: flex;
+    width: 100%;
+}
+
+#pic {
+    height: auto;
+    width: 35%;
+    
+    padding-left: 6%;
+}
+
+#text {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h3 {
+    font-family: Futura, sans-serif;
+    text-transform: uppercase;
+    font-size: 2.125em;
+    font-weight: 100;
+    color: #373B3B;
+}
+
+h4 {
+    font-family: Futura, sans-serif;
+    font-size: 1.5em;
+    font-weight: 100;
+    color: #8A191F;
+}
+
+p {
+    font-family: Futura, sans-serif;
+    color: #373B3B;
+    line-height: 175%;
+    text-align: justify;
+    text-indent: 5%;
+}
+
+@media screen and (max-width: 1120px) {
+    * {
+        font-size: 98%;
+    }
+}
+
+@media screen and (max-width: 865px) {
+    nav {
+        padding-left: 10%;
+        width: 15%;
+        height: 125vh;
+    }
+    
+    #logo {
+        width: 17%;
+        position: fixed;
+        top: 8%;
+        left: 4.6%;
+    }
+    
+    #about {
+        top: 25%;
+        left: 8.4%;
+        width: 10%;
+        position: fixed;
+    }
+    
+    #events {
+        top: 33%;
+        left: 9.3%;
+        width: 10.5%;
+        position: fixed;
+    }
+    
+    #merch {
+        top: 42%;
+        left: 8.6%;
+        width: 10%;
+        position: fixed;
+    }
+    
+    #connect {
+        top: 51%;
+        left: 8.1%;
+        width: 14%;
+        position: fixed;
+    }
+
+    #pic {
+        width: 45%;
+        height: auto;
+    }
+
+    #tix {
+        width: 20%;
+        padding: 1%;
+        
+        position: relative;
+        left: 50%;
+        top: 0%;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    nav {
+        padding-left: 10%;
+        width: 15%;
+        height: 125vh;
+    }
+    
+    #logo {
+        width: 20%;
+        position: fixed;
+        top: 6%;
+        left: 3%;
+    }
+    
+    #about {
+        top: 17%;
+        left: 7%;
+        width: 12%;
+        position: fixed;
+    }
+    
+    #events {
+        top: 22%;
+        left: 8%;
+        width: 12.5%;
+        position: fixed;
+    }
+    
+    #merch {
+        top: 27%;
+        left: 7.05%;
+        width: 12.5%;
+        position: fixed;
+    }
+    
+    #connect {
+        top: 32%;
+        left: 6.5%;
+        width: 17%;
+        position: fixed;
+    }
+
+    h1 {
+        font-family: Didot, serif;
+        color: #8A191F;
+        text-align: center;
+        font-size: 5.5em;
+    }
+
+    h3 {
+        text-align: center;
+    }
+    
+    #main {
+        padding-right: 8%;
+        margin-left: 22%;
+    }
+
+    #section {
+        padding-top: 3%;
+    }
+    
+    #pic {
+        display: none;
+    }
+
+    #tix {
+        width: 30%;
+        padding: 1%;
+        
+        position: relative;
+        left: 35%;
+        top: 0%;
+    }
+}

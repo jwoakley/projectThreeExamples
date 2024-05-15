@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+body {
+    display: flex;
+    background-color: #EFEEE6;
+
+    position: relative;
+}
+
+nav {
+    padding-left: 12%;
+    display: flex;
+    flex-direction: column;
+    width: 13%;
+    height: 100vh;
+
+    background-color: #8A191F;
+
+    position: absolute;
+}
+
+#logo {
+    width: 13%;
+    position: fixed;
+    top: 9%;
+    left: 5%;
+}
+
+#about {
+    top: 34%;
+    left: 6.9%;
+    width: 9%;
+    position: fixed;
+}
+
+#about:hover {
+    transform: skew(-10deg);
+}
+
+#events {
+    top: 46%;
+    left: 8%;
+    width: 9.1%;
+    position: fixed;
+}
+
+#events:hover {
+    transform: skew(-10deg);
+}
+
+#merch {
+    top: 58%;
+    left: 7.6%;
+    width: 8.5%;
+    position: fixed;
+}
+
+#merch:hover {
+    transform: skew(-10deg);
+}
+
+#connect {
+    top: 70%;
+    left: 7.3%;
+    width: 11.5%;
+    position: fixed;
+}
+
+#connect:hover {
+    transform: skew(-10deg);
+}
+
+/* BODY */
+h1 {
+    font-family: Didot, serif;
+    color: #8A191F;
+    text-align: right;
+    font-size: 6em;
+    padding-left: 58%;
+    width: 70%;
+}
+
+h3 {
+    font-family: Futura, sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 100;
+    color: #373B3B;
+}
+
+p {
+    font-family: Futura, sans-serif;
+    color: #373B3B;
+    background-color: #C8D174;
+    padding: 3%;
+    margin-top: 10%;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 2px 3px 6px #373B3B;
+    position: relative;
+    left: 25%;
+
+    border: 5px solid transparent;
+}
+
+p:hover {
+    border: 5px solid #8A191F;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 25%;
+    flex-wrap: wrap;
+}
+
+#heading {
+    display: flex;
+    align-items: center;
+    margin-left: 3.5%;
+}
+
+#yourcart {
+    color: #8A191F;
+    margin-right: 2%;
+    text-transform: lowercase;
+    font-size: 1.7em;
+}
+
+#yourcart:hover {
+    text-decoration: underline;
+}
+
+#cart {
+    height: 2.5vh;
+    width: auto;
+}
+
+#items {
+    display: flex;
+}
+
+.stack {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin: 4%;
+    justify-content: center;
+    text-align: center;
+}
+
+.pic {
+    height: 40vh;
+    width: auto;
+    margin-bottom: 10%;
+}
+
+.overlay {
+    width: 17.5%;
+    height: 46.5%;
+    top: 31.5%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.4s;
+    padding: 3%;
+    border-radius: 10px;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+.overlay h5 {
+    font-family: Futura, sans-serif;
+    color: #EFEEE6;
+}
+
+.overlay h3 {
+    color: #C8D174;
+}

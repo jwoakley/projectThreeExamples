@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #EFEEE6;
+
+    position: relative;
+}
+
+nav {
+    padding-left: 12%;
+    display: flex;
+    flex-direction: column;
+    width: 13%;
+    height: 405vh;
+
+    background-color: #8A191F;
+
+    position: absolute;
+}
+
+#logo {
+    width: 13%;
+    position: fixed;
+    top: 9%;
+    left: 5%;
+}
+
+#about {
+    top: 34%;
+    left: 6.9%;
+    width: 9%;
+    position: fixed;
+}
+
+#about:hover {
+    transform: skew(-10deg);
+}
+
+#events {
+    top: 46%;
+    left: 8%;
+    width: 9.1%;
+    position: fixed;
+}
+
+#events:hover {
+    transform: skew(-10deg);
+}
+
+#merch {
+    top: 58%;
+    left: 7.6%;
+    width: 8.5%;
+    position: fixed;
+}
+
+#merch:hover {
+    transform: skew(-10deg);
+}
+
+#connect {
+    top: 70%;
+    left: 7.3%;
+    width: 11.5%;
+    position: fixed;
+}
+
+#connect:hover {
+    transform: skew(-10deg);
+}
+
+/* BODY */
+h1 {
+    font-family: Didot, serif;
+    color: #8A191F;
+    text-align: right;
+    font-size: 6em;
+    padding-right: 3%;
+    padding-bottom: 2%;
+}
+
+h3 {
+    font-family: Futura, sans-serif;
+    text-transform: uppercase;
+    font-size: 2.125em;
+    font-weight: 100;
+    color: #373B3B;
+}
+
+h4 {
+    font-family: Futura, sans-serif;
+    font-size: 1.5em;
+    font-weight: 75;
+    color: #8A191F;
+}
+
+p {
+    font-family: Futura, sans-serif;
+    color: #373B3B;
+    line-height: 175%;
+}
+
+.bodytext {
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link:hover {
+    opacity: 0.5;
+}
+
+.link2:hover {
+    text-decoration: underline;
+    color: #373B3B;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 10%;
+    flex-wrap: wrap;
+}
+
+/* SCREEN 1 */
+#landing {
+    display: flex;
+    padding-left: 24%;
+    justify-content: center;
+    padding-bottom: 3%;
+}
+
+#part1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#part1, img {
+    width: 70%;
+    padding-bottom: 5%;
+}
+
+#split {
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+
+#part2 {
+    display: flex;
+}
+
+#part2 img {
+    width: 45%;
+    margin-right: 5%;
+}
+
+#part3 {
+    display: flex;
+}
+
+#part3 img {
+    width: 52%;
+    margin-right: 5%;
+}
+
+/* SCROLL */
+.updown {
+    display: flex;
+    flex-direction: column;
+    padding: 6%;
+    width: 70%;
+    gap: 10%;
+}
+
+.updown2 {
+    display: flex;
+    flex-direction: column;
+    padding: 6%;
+    width: 55%;
+    gap: 10%;
+}
+
+.updown3 {
+    display: flex;
+    flex-direction: column;
+    padding: 6%;
+    width: 55%;
+    gap: 10%;
+}
+
+.eventpic {
+    width: auto;
+    height: 30vh;
+}
+
+.eventpic2 {
+    width: auto;
+    height: 35vh;
+}
+
+.eventpic3 {
+    width: auto;
+    height: 25vh;
+}
+
+.group1 {
+    display: flex;
+}
+
+.chunk {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.lineup {
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.lineup2 {
+    display: flex;
+}
+
+.lineupday2 {
+    display: flex;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+    width: 70%;
+}
+
+/* SCREEN 2 */
+#day1 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 10%;
+    height: 100vh;
+}
+
+#day2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 10%;
+    height: 100vh;
+}
+
+#day3{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 10%;
+    height: 100vh;
+}
